@@ -8,7 +8,7 @@ def line(katz_deli)
     total_array_string = total_array_string + array_string
     #puts "The line is currently: #{index}. #{value}"
   end
-    puts "The line is currently: #{total_array_string}"
+    puts "The line is currently:#{total_array_string}"
   else
     puts "The line is currently empty."
   end
