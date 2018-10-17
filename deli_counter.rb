@@ -4,7 +4,8 @@ def line(katz_deli)
    array_string = ""
   if katz_deli.length > 0 
     katz_deli.each.with_index(1) do |value, index|
-    array_string = ""
+    array_string = "mmm#{index}. #{value}"
+    puts array_string
     puts "The line is currently: #{index}. #{value}"
   end
   else
